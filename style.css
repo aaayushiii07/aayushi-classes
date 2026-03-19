@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 🌈 Light Gradient Background */
+body {
+    background: linear-gradient(135deg, #f3e8ff, #e0c3fc, #f9f7ff);
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: #5a189a;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #5a189a;
+}
+
+.hero p {
+    margin: 15px 0;
+    color: #444;
+}
+
+.btn {
+    background: #c77dff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #b066ff;
+}
+
+/* Sections */
+section {
+    margin: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #7b2cbf;
+}
+
+/* Reviews */
+.review-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.review {
+    background: white;
+    padding: 20px;
+    width: 260px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.review:hover {
+    transform: translateY(-5px);
+}
+
+.review p {
+    font-style: italic;
+}
+
+.review h4 {
+    margin-top: 10px;
+    color: #7b2cbf;
+}
+
+/* Button */
+button {
+    background: #c77dff;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
